@@ -6,49 +6,131 @@ body{
 html{
     overflow-x: hidden;
 }
+.one{
+    background-image: url("./img/AdobeStock_79706804-scaled.jpg");
+}
 .accimg_1 {
     display: flex;
-    height: 200px;
-    width: 200px;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.prin1 h1 {
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    margin-right: 130px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px 3px #075255ec;
+}
+
+.kar1 {
+    height: 500px;
+    width: 380px;
     overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
+    box-shadow: black 0 0 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #10d9e0d5;
+    margin: 20px;
+}
+
+.foto {
+    height: 40%;
     overflow: hidden;
     box-shadow:   2px 3px 130px    rgba(0, 0, 0, 0.07);
 }
-.accimg_1 img {
-  
+.foto img { 
     height: 100%;
- 
-    
-}
-
-
-     height: 5%;
-     padding: 5px;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 18px;  
-}
-
-.all_kar
-{
+width: 100%;}
+  
+.all_kart {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.acc1 {
+
+.kar1 button {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    justify-content: space-around;
+    margin-left: 100px;
+    background-color: #5908ee81;
+    width: 170px;
+    border: rgba(135, 167, 209, 0.849) 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 24px;
+    box-shadow: rgba(58, 60, 80, 0.808) 0 3px 25px;
+    height: 34px;
+    border-radius: 25px
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+.con {
+    height: 45%;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+.con h1 {
+    font-weight: 500;
+}
+
+.kar1 button:active {
+    box-shadow: rgba(173, 99, 25, 0.849) 0 3px 25px;
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+.naz a{
+    display: flex; 
+    background-color: #5908ee81;
+    width: 170px;
+    border: rgba(135, 167, 209, 0.849) 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 24px;
+    box-shadow: rgba(58, 60, 80, 0.808) 0 3px 25px;
+    height: 34px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.naz a:active {
+    box-shadow: rgba(173, 99, 25, 0.849) 0 3px 25px;
+    transform: scale(0.9);
+    transition: 0.1s;}
+.naz{
+    display: flex;
+    justify-content: center;
+    height: 100px;
     align-items: center;
-    padding: 20px;
-    width: 450px;
-    height: 350px;
-    background: rgba(65, 121, 243, 0.322);
-    margin: 40px;
-   box-shadow:   0 0  3px 4px inset rgba(253, 253, 253, 1)  ,2px 3px 30px    rgba(0, 0, 0, 0.353);
-   border-radius: 10%;
-   
+}.ll{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 720px)
+{
+    .prin1 h1 {
+        font-size: 35px; 
+        margin-left: 44%;
+        text-align: center;  
+    }
+.con h1{
+    margin: 0;
+}
+.con p {
+    margin: 0;
+}
+
+
+
+
+
+
 }
