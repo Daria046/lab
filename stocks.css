@@ -7,7 +7,7 @@ html{
     overflow-x: hidden;
 }
 .one{
-    background-image: url("./img/AdobeStock_79706804-scaled.jpg");
+    background-image: url("./img/img_2761-min.jpg");
 }
 .accimg_1 {
     display: flex;
@@ -21,8 +21,8 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     margin-right: 130px;
     font-weight: 900;
-    color: white;
-    text-shadow: 3px 3px 3px #075255ec;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px #ffffffec;
 }
 
 .kar1 {
@@ -32,7 +32,7 @@ html{
     box-shadow: black 0 0 20px;
     border-radius: 30px;
     margin-top: 20px;
-    background-color: #10d9e0d5;
+    background-color: #0447acf6;
     margin: 20px;
 }
 
@@ -55,7 +55,7 @@ width: 100%;}
 .kar1 button {
     display: flex;
     margin-left: 100px;
-    background-color: #5908ee81;
+    background-color: #eed70881;
     width: 170px;
     border: rgba(135, 167, 209, 0.849) 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
@@ -86,7 +86,7 @@ width: 100%;}
 }
 .naz a{
     display: flex; 
-    background-color: #5908ee81;
+    background-color: #eed70898;
     width: 170px;
     border: rgba(135, 167, 209, 0.849) 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
